@@ -441,26 +441,30 @@
             <li class="footer-icon-element">
               <a href="" class="footer-icon-link">
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
             <li class="footer-icon-element">
               <a href="" class="footer-icon-link">
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
             <li class="footer-icon-element">
               <a href="" class="footer-icon-link">
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
             <li class="footer-icon-element">
               <a href="" class="footer-icon-link">
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -487,5 +491,62 @@
         </div>
       </div>
     </footer>
+    <div class="modal-container">
+      <div class="modal-window">
+        <button type="button" class="modal-close-btn">
+          <svg width="8" height="8" class="modal-close-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-paragraph">This is the modal content.</p>
+        <form class="modal-form">
+          <div class="modal-form-group">
+            <label for="username" class="modal-label">Name</label>
+            <div class="modal-input-container">
+              <input
+                type="text"
+                id="username"
+                name="username"
+                class="modal-input"
+              />
+            </div>
+          </div>
+          <div class="modal-form-group">
+            <label for="phone" class="modal-label">Phone</label>
+            <div class="modal-input-container">
+              <input type="text" id="phone" name="phone" class="modal-input" />
+            </div>
+          </div>
+          <div class="modal-form-group">
+            <label for="email" class="modal-label">Email</label>
+            <div class="modal-input-container">
+              <input type="email" id="email" name="email" class="modal-input" />
+            </div>
+          </div>
+          <div class="modal-form-group">
+            <label for="comment" class="modal-label">Comment</label>
+            <textarea
+              id="comment"
+              name="comment"
+              class="modal-textarea"
+            ></textarea>
+          </div>
+          <div class="modal-form-group">
+            <input
+              type="checkbox"
+              id="privacy"
+              name="privacy"
+              class="modal-checkbox visually-hidden"
+            />
+            <label for="privacy" class="modal-checkbox-label">
+              I accept the terms and conditions of the
+              <a href="#" class="modal-link">Privacy Policy</a>
+              <span class="modal-checkbox-custom"></span>
+            </label>
+          </div>
+          <button type="submit" class="modal-submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
